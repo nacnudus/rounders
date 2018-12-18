@@ -1,0 +1,15 @@
+Package: rounders
+Title: Round Numbers
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Duncan",
+           family = "Garmonsway",
+           role = c("aut", "cre"),
+           email = "nacnudus@gmail.com")
+Description: Round numbers by various methods such as rounding
+    with arbitrary precision and rounding to the nearest gap of a given
+    width.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

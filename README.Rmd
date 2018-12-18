@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# rounders
+
+The rounders package implements rounding algorithms
+
+* `floor_gap(x, width)` and `ceiling_gap(x, width)` round to the nearest gap in
+  a sequence.
+
+```{r}
+library(rounders)
+
+example(round_gap)
+```
+
+
+## Installation
+
+You can install the released version of rounders from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("rounders")
+```
