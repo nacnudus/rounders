@@ -4,9 +4,9 @@
 #' @param width defines how wide a 'gap' is
 #'
 #' @name round_gap
-#' @example
-#' floor_gap(c(5, 7, 8, 11, 15, 17, 25), gap = 3)
-#' ceiling_gap(c(5, 7, 8, 11, 15, 17, 25), gap = 3)
+#' @examples
+#' floor_gap(c(5, 7, 8, 11, 15, 17, 25), width = 3)
+#' ceiling_gap(c(5, 7, 8, 11, 15, 17, 25), width = 3)
 NULL
 
 #' @rdname round_gap

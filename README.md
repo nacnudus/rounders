@@ -14,7 +14,12 @@ The rounders package implements rounding algorithms
 library(rounders)
 
 example(round_gap)
-#> Warning in example(round_gap): no help found for 'round_gap'
+#> 
+#> rnd_gp> floor_gap(c(5, 7, 8, 11, 15, 17, 25), width = 3)
+#> [1]  5  5  5 11 15 15 25
+#> 
+#> rnd_gp> ceiling_gap(c(5, 7, 8, 11, 15, 17, 25), width = 3)
+#> [1]  8  8  8 11 17 17 25
 ```
 
 ## Installation
