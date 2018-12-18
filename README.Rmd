@@ -25,11 +25,12 @@ library(rounders)
 example(round_gap)
 ```
 
-
 ## Installation
 
-You can install the released version of rounders from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version from GitHub with devtools or remotes.
 
-``` r
-install.packages("rounders")
+```r
+install.packages("devtools")
+devtools::install_github("nacnudus/rounders")
 ```
+
